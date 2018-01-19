@@ -9,7 +9,7 @@ import javafx.stage.Stage;
 import java.io.File;
 import java.util.List;
 
-public class BananaDetection extends Application {
+public class BananaDetectorApp extends Application {
 
     public static void main(String[] args) {
         launch(args);

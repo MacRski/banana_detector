@@ -45,9 +45,7 @@ public class Detector {
 
     private static List<Rect> detectBananas(CascadeClassifier cascade, Mat mat, Mat grayImg) {
         RectVector vector = new RectVector();
-
         cascade.detectMultiScale(grayImg, vector);
-
         return drawDetectedObjects(mat, vector);
     }
 
